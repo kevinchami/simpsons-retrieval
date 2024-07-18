@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: quote-retrieval
+    env: python
+    region: oregon  # or your preferred region
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "./start.sh"
+    envVars:
+      - key: PINECONE_API_KEY
+        value: ${PINECONE_API_KEY}  # Make sure to set this in the Render dashboard

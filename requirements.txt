@@ -1,0 +1,6 @@
+Flask
+flask-restful
+flask-cors
+sentence-transformers
+pinecone-client
+gunicorn
