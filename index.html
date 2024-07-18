@@ -23,8 +23,10 @@
             fetchResults(query, num);
         });
 
-        function fetchResults(query, num) {
-            fetch(`http://localhost:5001/retrieve?text=${query}&num=${num}`)
+         function fetchResults(query, num) {
+            const baseUrl = window.location.origin;
+            console.log(baseUrl)
+            fetch(`${baseUrl}/retrieve?text=${query}&num=${num}`)
                 .then(response => response.text())
                 .then(data => {
                     document.getElementById('results').innerHTML = data;
