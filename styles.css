@@ -109,6 +109,9 @@ tr:hover {
 }
 
 @media (max-width: 600px) {
+    body {
+        font-family: Arial, sans-serif;
+    }
     h1 {
         font-size: 3em;
     }
