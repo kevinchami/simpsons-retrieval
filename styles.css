@@ -69,9 +69,9 @@ button:hover {
 }
 
 .scrollable-table {
-    margin-top: 170px; /* Adjust based on header height */
+    margin-top: 290px; /* Increased margin based on header height */
     width: 90%;
-    max-height: calc(100vh - 170px); /* Adjust based on header height */
+    max-height: calc(100vh - 220px); /* Adjusted max height */
     overflow-y: auto;
 }
 
@@ -129,8 +129,8 @@ tr:hover {
     }
 
     .scrollable-table {
-        margin-top: 200px; /* Adjust based on header height */
-        max-height: calc(100vh - 200px); /* Adjust based on header height */
+        margin-top: 260px; /* Adjusted margin based on header height */
+        max-height: calc(100vh - 260px); /* Adjusted max height */
     }
 
     th, td {
